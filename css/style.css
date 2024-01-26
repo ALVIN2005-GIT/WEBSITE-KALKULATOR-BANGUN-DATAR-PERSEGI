@@ -394,84 +394,83 @@ footer div p a:active {
     right: 38%;
     bottom: 60px;
   }
+}
+/* STYLE UNTUK SMARTPHONE*/
+@media (max-width: 480px) {
+  /* NAVBAR */
+  .navbar {
+    padding: 20px;
+  }
+  .navbar .navbar-content p {
+    font-size: 10px;
+    color: #fff;
+  }
+  .navbar .navbar-title {
+    margin-bottom: 12px;
+    font-size: 15px;
+    color: #fff;
+  }
 
-  /* STYLE UNTUK SMARTPHONE*/
-  @media (max-width: 480px) {
-    /* NAVBAR */
-    .navbar {
-      padding: 20px;
-    }
-    .navbar .navbar-content p {
-      font-size: 10px;
-      color: #fff;
-    }
-    .navbar .navbar-title {
-      margin-bottom: 12px;
-      font-size: 15px;
-      color: #fff;
-    }
+  /* RUMUS LUAS PERSEGI */
+  .rumus-persegi-luas .row .rumus {
+    margin-left: 15px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
 
-    /* RUMUS LUAS PERSEGI */
-    .rumus-persegi-luas .row .rumus {
-      margin-left: 15px;
-      margin-top: 25px;
-      margin-bottom: 20px;
-    }
+  .rumus-persegi-luas .row .hasil-perhitungan {
+    margin-top: 30px;
+  }
+  .rumus-persegi-luas .row .bagian-persegi .bagiana {
+    position: absolute;
+    left: 33%;
+    top: 0;
+  }
+  .rumus-persegi-luas .row .bagian-persegi .bagianb {
+    position: absolute;
+    right: 33%;
+    top: 0;
+  }
+  .rumus-persegi-luas .row .bagian-persegi .bagianc {
+    position: absolute;
+    left: 33%;
+    bottom: 60px;
+  }
+  .rumus-persegi-luas .row .bagian-persegi .bagiand {
+    position: absolute;
+    right: 33%;
+    bottom: 60px;
+  }
+  .rumus-persegi-luas .row .hasil-perhitungan {
+    font-size: 14px;
+  }
 
-    .rumus-persegi-luas .row .hasil-perhitungan {
-      margin-top: 30px;
-    }
-    .rumus-persegi-luas .row .bagian-persegi .bagiana {
-      position: absolute;
-      left: 33%;
-      top: 0;
-    }
-    .rumus-persegi-luas .row .bagian-persegi .bagianb {
-      position: absolute;
-      right: 33%;
-      top: 0;
-    }
-    .rumus-persegi-luas .row .bagian-persegi .bagianc {
-      position: absolute;
-      left: 33%;
-      bottom: 60px;
-    }
-    .rumus-persegi-luas .row .bagian-persegi .bagiand {
-      position: absolute;
-      right: 33%;
-      bottom: 60px;
-    }
-    .rumus-persegi-luas .row .hasil-perhitungan {
-      font-size: 14px;
-    }
-
-    /* RUMUS KELILING PERSEGI */
-    .rumus-persegi-keliling .row .bagian-persegi .bagiana {
-      position: absolute;
-      left: 33%;
-      top: 0;
-    }
-    .rumus-persegi-keliling .row .bagian-persegi .bagianb {
-      position: absolute;
-      right: 33%;
-      top: 0;
-    }
-    .rumus-persegi-keliling .row .bagian-persegi .bagianc {
-      position: absolute;
-      left: 33%;
-      bottom: 60px;
-    }
-    .rumus-persegi-keliling .row .bagian-persegi .bagiand {
-      position: absolute;
-      right: 33%;
-      bottom: 60px;
-    }
-    .rumus-persegi-keliling .row .rumus {
-      margin-left: 15px;
-    }
-    .rumus-persegi-keliling .row .hasil-perhitungan-keliling {
-      margin-top: 30px;
-      font-size: 14px;
-    }
+  /* RUMUS KELILING PERSEGI */
+  .rumus-persegi-keliling .row .bagian-persegi .bagiana {
+    position: absolute;
+    left: 33%;
+    top: 0;
+  }
+  .rumus-persegi-keliling .row .bagian-persegi .bagianb {
+    position: absolute;
+    right: 33%;
+    top: 0;
+  }
+  .rumus-persegi-keliling .row .bagian-persegi .bagianc {
+    position: absolute;
+    left: 33%;
+    bottom: 60px;
+  }
+  .rumus-persegi-keliling .row .bagian-persegi .bagiand {
+    position: absolute;
+    right: 33%;
+    bottom: 60px;
+  }
+  .rumus-persegi-keliling .row .rumus {
+    margin-left: 15px;
+  }
+  .rumus-persegi-keliling .row .hasil-perhitungan-keliling {
+    margin-top: 30px;
+    font-size: 14px;
   }
 }
